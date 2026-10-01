@@ -54,6 +54,13 @@ async function buildReadme() {
   const totalTemplates = templatesWithStatus.length;
   const liveDemos = templatesWithStatus.filter(t => t.status === '🟢 Demo Live').length;
 
+  const formatter = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'UTC',
+    dateStyle: 'full',
+    timeStyle: 'medium',
+  });
+  const lastUpdate = formatter.format(new Date());
+
   console.log('Grouping by category...');
   const groupedTemplates = groupByCategory(templatesWithStatus);
 
@@ -62,7 +69,9 @@ async function buildReadme() {
 
 ![Total Templates](https://img.shields.io/badge/Total_Templates-${totalTemplates}-blue)
 ![Live Demos](https://img.shields.io/badge/Live_Demos-${liveDemos}-green)
-![Auto Update](https://img.shields.io/badge/Auto_Update-✓-success)
+![Auto Update](https://img.shields.io/badge/Auto_Update-Daily-purple)
+
+> 🕒 **Last auto update:** ${lastUpdate}
 
 🎨 Kho Template Portfolio & Blog Cá nhân mã nguồn mở cực chất dành cho Lập trình viên. Không cần tự thiết kế CSS đau đầu, chỉ việc chọn 'Gu' của bạn ➞ Fork Repo ➞ Sửa file JSON/Markdown ➞ Deploy lên Vercel/Netlify trong 3 phút!
 
