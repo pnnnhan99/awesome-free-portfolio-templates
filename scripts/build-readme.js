@@ -46,7 +46,7 @@ async function buildReadme() {
       const isLive = await checkDemoUrl(template.demoUrl);
       return {
         ...template,
-        status: isLive ? '🟢 Demo Live' : '🔴 Demo Lỗi'
+        status: isLive ? '🟢 Demo Live' : '🔴 Demo Down'
       };
     })
   );
@@ -73,16 +73,16 @@ async function buildReadme() {
 
 > 🕒 **Last auto update:** ${lastUpdate}
 
-🎨 Kho Template Portfolio & Blog Cá nhân mã nguồn mở cực chất dành cho Lập trình viên. Không cần tự thiết kế CSS đau đầu, chỉ việc chọn 'Gu' của bạn ➞ Fork Repo ➞ Sửa file JSON/Markdown ➞ Deploy lên Vercel/Netlify trong 3 phút!
+🎨 A curated collection of high-quality open-source portfolio and blog templates for developers. No need to struggle with CSS design - just pick your style ➞ Fork Repo ➞ Edit JSON/Markdown ➞ Deploy to Vercel/Netlify in 3 minutes!
 
-## 📋 Danh sách Templates
+## 📋 Template List
 
 `;
 
   for (const [category, categoryTemplates] of Object.entries(groupedTemplates)) {
     markdown += `### ${category}\n\n`;
-    markdown += `| Tên Template | Mã nguồn | Tech Stack | Mô tả | Trạng thái Demo |\n`;
-    markdown += `|-------------|----------|------------|-------|----------------|\n`;
+    markdown += `| Template Name | Source | Tech Stack | Description | Demo Status |\n`;
+    markdown += `|---------------|--------|------------|-------------|-------------|\n`;
 
     for (const template of categoryTemplates) {
       const nameLink = `[${template.name}](${template.demoUrl})`;
@@ -95,13 +95,13 @@ async function buildReadme() {
 
   markdown += `---
 
-## 🤝 Đóng góp
+## 🤝 Contributing
 
-Bạn có template portfolio/blog cá nhân mã nguồn mở đẹp? Hãy mở Pull Request để thêm vào danh sách!
+Have a beautiful open-source portfolio/blog template? Open a Pull Request to add it to the list!
 
 ## 📄 License
 
-MIT License - Tự do sử dụng cho mục đích cá nhân và thương mại.
+MIT License - Free to use for personal and commercial purposes.
 
 ---
 

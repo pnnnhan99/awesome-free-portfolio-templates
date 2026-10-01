@@ -1,7 +1,7 @@
 {
   "name": "awesome-free-portfolio-templates",
   "version": "1.0.0",
-  "description": "Kho Template Portfolio & Blog Cá nhân mã nguồn mở cực chất dành cho Lập trình viên",
+  "description": "A curated collection of high-quality open-source portfolio and blog templates for developers",
   "main": "scripts/build-readme.js",
   "scripts": {
     "build": "node scripts/build-readme.js"
