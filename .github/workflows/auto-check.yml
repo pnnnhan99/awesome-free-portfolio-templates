@@ -10,7 +10,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -40,8 +42,8 @@ jobs:
       - name: Commit and push changes
         if: steps.check-changes.outputs.changed == 'true'
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config --local user.email "pnnnhan99@gmail.com"
+          git config --local user.name "GitHub Actions Bot"
           git add README.md
           git commit -m "chore: auto-update README with latest demo status"
           git push
