@@ -2,47 +2,49 @@
 
 ![Total Templates](https://img.shields.io/badge/Total_Templates-6-blue)
 ![Live Demos](https://img.shields.io/badge/Live_Demos-6-green)
-![Auto Update](https://img.shields.io/badge/Auto_Update-✓-success)
+![Auto Update](https://img.shields.io/badge/Auto_Update-Daily-purple)
 
-🎨 Kho Template Portfolio & Blog Cá nhân mã nguồn mở cực chất dành cho Lập trình viên. Không cần tự thiết kế CSS đau đầu, chỉ việc chọn 'Gu' của bạn ➞ Fork Repo ➞ Sửa file JSON/Markdown ➞ Deploy lên Vercel/Netlify trong 3 phút!
+> 🕒 **Last auto update:** Thursday, October 1, 2026 at 2:47:26 AM
 
-## 📋 Danh sách Templates
+🎨 A curated collection of high-quality open-source portfolio and blog templates for developers. No need to struggle with CSS design - just pick your style ➞ Fork Repo ➞ Edit JSON/Markdown ➞ Deploy to Vercel/Netlify in 3 minutes!
 
-### Tối giản (Minimalist)
+## 📋 Template List
 
-| Tên Template | Mã nguồn | Tech Stack | Mô tả | Trạng thái Demo |
-|-------------|----------|------------|-------|----------------|
-| [Lee Robinson's Portfolio](https://leerob.io) | [Repo](https://github.com/leerob/leerob.io) | Next.js, Tailwind, Vercel | Template portfolio kinh điển của VP of Product tại Vercel. Cực nhanh, chuẩn SEO. | 🟢 Demo Live |
-| [Astro Paper](https://astro-paper.pages.dev/) | [Repo](https://github.com/satnaing/astro-paper) | Astro, Tailwind CSS | Template làm blog cá nhân siêu nhẹ, hỗ trợ dark/light mode hoàn hảo. | 🟢 Demo Live |
+### Minimalist
 
-### Tương tác & Hiệu ứng (Interactive)
+| Template Name | Source | Tech Stack | Description | Demo Status |
+|---------------|--------|------------|-------------|-------------|
+| [Lee Robinson's Portfolio](https://leerob.io) | [Repo](https://github.com/leerob/leerob.io) | Next.js, Tailwind, Vercel | Classic portfolio template from Vercel's VP of Product. Extremely fast, SEO-optimized. | 🟢 Demo Live |
+| [Astro Paper](https://astro-paper.pages.dev/) | [Repo](https://github.com/satnaing/astro-paper) | Astro, Tailwind CSS | Ultra-lightweight personal blog template with perfect dark/light mode support. | 🟢 Demo Live |
 
-| Tên Template | Mã nguồn | Tech Stack | Mô tả | Trạng thái Demo |
-|-------------|----------|------------|-------|----------------|
-| [Brittany Chiang Portfolio (v4)](https://brittanychiang.com/) | [Repo](https://github.com/bchiang7/v4) | React, Styled Components | Huyền thoại Portfolio trong giới Frontend. Hiệu ứng cuộn và UI cực kỳ mãn nhãn. | 🟢 Demo Live |
-| [Developer Portfolio (by soumyajit4419)](https://soumyajit.vercel.app/) | [Repo](https://github.com/soumyajit4419/Portfolio) | React, Bootstrap | Template rực rỡ, phù hợp cho sinh viên show project đồ án và kỹ năng. | 🟢 Demo Live |
+### Interactive
 
-### Phong cách Hacker (Geeky/Terminal)
+| Template Name | Source | Tech Stack | Description | Demo Status |
+|---------------|--------|------------|-------------|-------------|
+| [Brittany Chiang Portfolio (v4)](https://brittanychiang.com/) | [Repo](https://github.com/bchiang7/v4) | React, Styled Components | Legendary portfolio in the Frontend community. Stunning scroll effects and UI. | 🟢 Demo Live |
+| [Developer Portfolio (by soumyajit4419)](https://soumyajit.vercel.app/) | [Repo](https://github.com/soumyajit4419/Portfolio) | React, Bootstrap | Vibrant template, perfect for students to showcase projects and skills. | 🟢 Demo Live |
 
-| Tên Template | Mã nguồn | Tech Stack | Mô tả | Trạng thái Demo |
-|-------------|----------|------------|-------|----------------|
-| [Astro Terminal Portfolio](https://terminal.satnaing.dev/) | [Repo](https://github.com/satnaing/astro-terminal) | Astro, TypeScript | Giao diện màn hình console dòng lệnh cực ngầu. Gõ lệnh để xem thông tin CV. | 🟢 Demo Live |
+### Geeky/Terminal
 
-### Độc lạ (Unique)
+| Template Name | Source | Tech Stack | Description | Demo Status |
+|---------------|--------|------------|-------------|-------------|
+| [Astro Terminal Portfolio](https://terminal.satnaing.dev/) | [Repo](https://github.com/satnaing/astro-terminal) | Astro, TypeScript | Cool command-line console interface. Type commands to view CV information. | 🟢 Demo Live |
 
-| Tên Template | Mã nguồn | Tech Stack | Mô tả | Trạng thái Demo |
-|-------------|----------|------------|-------|----------------|
-| [Next.js Notion Starter](https://react-notion-x-demo.transitivebullsh.it/) | [Repo](https://github.com/transitive-bullshit/nextjs-notion-starter-kit) | Next.js, Notion API | Dùng chính trang Notion của bạn làm CMS để tự động render ra web Portfolio. | 🟢 Demo Live |
+### Unique
+
+| Template Name | Source | Tech Stack | Description | Demo Status |
+|---------------|--------|------------|-------------|-------------|
+| [Next.js Notion Starter](https://react-notion-x-demo.transitivebullsh.it/) | [Repo](https://github.com/transitive-bullshit/nextjs-notion-starter-kit) | Next.js, Notion API | Use your own Notion page as CMS to automatically render portfolio website. | 🟢 Demo Live |
 
 ---
 
-## 🤝 Đóng góp
+## 🤝 Contributing
 
-Bạn có template portfolio/blog cá nhân mã nguồn mở đẹp? Hãy mở Pull Request để thêm vào danh sách!
+Have a beautiful open-source portfolio/blog template? Open a Pull Request to add it to the list!
 
 ## 📄 License
 
-MIT License - Tự do sử dụng cho mục đích cá nhân và thương mại.
+MIT License - Free to use for personal and commercial purposes.
 
 ---
 
